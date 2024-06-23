@@ -14,6 +14,7 @@ function checkValidation(pickup: string[], trips: [string, string][], drops: str
             map1.set(c[1], newArray);
         } else {
             map1.set(c[1], firstArray);
+            console.log("map1")
         }
     });
 
